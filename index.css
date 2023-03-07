@@ -12,6 +12,16 @@ p {
     transition-property: transform;
 }
 
+h1 {
+    text-align: center;
+    font-family: coolvetica;
+    color: azure;
+}
+
+a {
+    color: aquamarine;
+}
+
 body {
     background-color: rgb(18, 18, 18);
     overflow-x: hidden;
