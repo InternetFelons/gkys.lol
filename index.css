@@ -1,0 +1,42 @@
+@font-face {
+    font-family: coolvetica;
+    src: url(./fonts/coolvetica.otf);
+}
+
+p {
+    font-family: coolvetica;
+    font-size: 175px;
+    text-align: center;
+    color: azure;
+    transition-duration: 500ms;
+    transition-property: transform;
+}
+
+body {
+    background-color: rgb(18, 18, 18);
+    overflow-x: hidden;
+}
+
+p:hover {
+    transform: scale(1.1);
+}
+
+::-webkit-scrollbar {
+    width: 2em;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(6, 6, 6);
+    border-radius: 7px;
+    margin-block: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: azure;
+    transition-duration: 300ms;
+    border-radius: 7px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(222, 222, 222);
+}
